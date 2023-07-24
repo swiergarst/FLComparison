@@ -1,0 +1,27 @@
+application: {}
+environments:
+  acc: {}
+  dev:
+    #api_key: 282e5e38-c1e6-11eb-a20e-0242ac110003
+    api_key: 03504c42-d263-11eb-a097-0242ac110002
+    api_path: /api
+    databases:
+      default: /home/swier/Documents/FedvsCent/datasets/AML/A2/PCA/IID/AML_A2_PCA_client7.csv
+    encryption:
+      enabled: True
+      private_key: /home/swier/Documents/FedvsCent/privkeys/privkey_testOrg7.pem
+    logging:
+      backup_count: 5
+      datefmt: '%Y-%m-%d %H:%M:%S'
+      file: org7User-local.log
+      format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+      level: DEBUG
+      max_size: 1024
+      use_console: true
+    port: '5000'
+    #server_url: http://172.17.0.1 http://172.17.0.1 http://192.168.178.185
+ #   server_url: http://172.17.0.1 http://172.17.0.1 http://10.0.1.15
+    server_url: http://172.17.0.1
+    task_dir:  
+  prod: {}
+  test: {}

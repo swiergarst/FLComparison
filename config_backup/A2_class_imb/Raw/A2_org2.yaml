@@ -1,0 +1,27 @@
+application: {}
+environments:
+  acc: {}
+  dev:
+    #api_key: 2827e350-c1e6-11eb-a20e-0242ac110003
+    api_key: 034b71a4-d263-11eb-a097-0242ac110002
+    api_path: /api
+    databases:
+      default: /home/swier/Documents/afstuderen/datasets/RMA/A2/class imbalance/A2_class_imbalance_client2.csv
+    encryption:
+      enabled: True
+      private_key: /home/swier/.local/share/vantage6/node/privkey_testOrg2.pem
+    logging:
+      backup_count: 5
+      datefmt: '%Y-%m-%d %H:%M:%S'
+      file: org2User-local.log
+      format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+      level: DEBUG
+      max_size: 1024
+      use_console: true
+    port: '80'
+    #server_url: http://192.168.178.185
+    server_url: http://172.17.0.1
+    #server_url: http://10.0.1.15
+    task_dir: ~/Documents/afstuderen/vantage6/tasks
+  prod: {}
+  test: {}

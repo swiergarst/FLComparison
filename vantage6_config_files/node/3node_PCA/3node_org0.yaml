@@ -6,10 +6,10 @@ environments:
     api_key: 0349548c-d263-11eb-a097-0242ac110002
     api_path: /api
     databases:
-      default: /home/swier/Documents/FedvsCent/datasets/AML/A1/3node_PCA_A1.csv
+      default: /path/to/base/folder/datasets/AML/A1/3node_PCA_A1.csv
     encryption:
       enabled: True
-      private_key: /home/swier/Documents/FedvsCent/privkeys/privkey_testOrg0.pem
+      private_key: path/to/base/folder/privkeys/privkey_testOrg0.pem
     logging:
       backup_count: 5
       datefmt: '%Y-%m-%d %H:%M:%S'
@@ -19,7 +19,7 @@ environments:
       max_size: 1024
       use_console: true
     port: '80'
-    server_url: http://172.17.0.1 
+    server_url: http://server_url
     task_dir:  
   prod: {}
   test: {}
