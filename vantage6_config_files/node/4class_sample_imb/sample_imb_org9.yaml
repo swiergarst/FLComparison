@@ -1,0 +1,31 @@
+application: {}
+environments:
+  acc: {}
+  dev:
+    #api_key: 2830f03a-c1e6-11eb-a20e-0242ac110003
+    api_key: 0352254e-d263-11eb-a097-0242ac110002
+    api_path: /api
+    databases:
+      #default: /home/swier/Documents/FedvsCent/nnTest/v6_simpleNN_py/local/MNIST/MNIST_dataset_client9.csv
+      #default: /home/swier/Documents/FedvsCent/nnTest/v6-simpleNN-py/local/banana/banana_dataset_client9.csv
+      #default: /home/swier/Documents/FedvsCent/nnTest/v6_simpleNN_py/local/MNIST_2Class_IID/MNIST_2Class_IID_client9.csv
+      #default: /home/swier/Documents/FedvsCent/nnTest/v6_simpleNN_py/local/MNIST_2Class_class_imbalance/MNIST_2Class_class_imbalance_client9.csv
+      default: /home/swier/Documents/FedvsCent/datasets/4Class_sample_imbalance/MNIST_4Class_sample_imbalance_client9.csv
+    encryption:
+      enabled: True
+      private_key: /home/swier/Documents/FedvsCent/privkeys/privkey_testOrg9.pem
+    logging:
+      backup_count: 5
+      datefmt: '%Y-%m-%d %H:%M:%S'
+      file: org9User-local.log
+      format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+      level: DEBUG
+      max_size: 1024
+      use_console: true
+    port: '5000'
+   # server_url: http://172.17.0.1 http://172.17.0.1 http://192.168.178.185
+#    server_url: http://172.17.0.1 http://172.17.0.1 http://10.0.1.15
+    server_url: http://172.17.0.1
+    task_dir:  
+  prod: {}
+  test: {}

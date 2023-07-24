@@ -1,0 +1,31 @@
+application: {}
+environments:
+  acc: {}
+  dev: {}
+  prod:
+    description: a vantage6 server
+
+    ip: 0.0.0.0
+
+    port: '5000'
+
+    api_path: /api
+
+    uri: sqlite:////home/swier/Documents/FedvsCent/default.sqlite
+
+    allow_drop_all: True
+    
+    
+    logging:
+      level: DEBUG
+      file: vantage_server.log
+      use_console: true
+      backup_count: 5
+      max_size: 1024
+      datefmt: '%Y-%m-%d %H:%M:%S'
+      format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+    test: {}
+      
+      
+    
+ 

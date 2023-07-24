@@ -1,0 +1,26 @@
+application: {}
+environments:
+  acc: {}
+  dev:
+    api_key: 034a67aa-d263-11eb-a097-0242ac110002
+    api_path: /api
+    databases:
+      default: /path/to/base/folder/datasets/MNIST_2Class_IID/MNIST_2Class_IID_client1.csv
+    encryption:
+      enabled: True
+      private_key: path/to/base/folder/privkeys/privkey_testOrg1.pem
+    logging:
+      backup_count: 5
+      datefmt: '%Y-%m-%d %H:%M:%S'
+      file: org1User-local.log
+      format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+      level: DEBUG
+      max_size: 1024
+      use_console: true
+    port: '80'
+    #server_url: http://192.168.178.185
+#    server_url: http://10.0.1.15
+    server_url:
+    task_dir:  
+  prod: {}
+  test: {}
