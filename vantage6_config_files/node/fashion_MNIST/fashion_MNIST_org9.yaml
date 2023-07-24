@@ -3,7 +3,7 @@ environments:
   acc: {}
   dev:
     #api_key: 28265a4e-c1e6-11eb-a20e-0242ac110003
-    api_key: 0349548c-d263-11eb-a097-0242ac110002
+    api_key: 0352254e-d263-11eb-a097-0242ac110002
     api_path: /api
     databases:
       default: /path/to/base/folder/datasets/fashion_mnist/csv/fashion_MNIST_dataset_client9.csv

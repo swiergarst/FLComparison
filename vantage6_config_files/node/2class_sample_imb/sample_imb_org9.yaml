@@ -3,7 +3,7 @@ environments:
   acc: {}
   dev:
     #api_key: 2827e350-c1e6-11eb-a20e-0242ac110003
-    api_key: 034b71a4-d263-11eb-a097-0242ac110002
+    api_key: 0352254e-d263-11eb-a097-0242ac110002
     api_path: /api
     databases:
       default: /path/to/base/folder/datasets/MNIST_2Class_Sample_Imbalance/MNIST_2Class_sample_imbalance_client9.csv

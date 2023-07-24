@@ -3,7 +3,7 @@ environments:
   acc: {}
   dev:
     #api_key: 28265a4e-c1e6-11eb-a20e-0242ac110003
-    api_key: 0349548c-d263-11eb-a097-0242ac110002
+    api_key: 034f3820-d263-11eb-a097-0242ac110002
     api_path: /api
     databases:
       default: /path/to/base/folder/datasets/RMA/A2/PCA/sample imbalance/AML_A2_PCA_client6.csv
