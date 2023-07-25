@@ -2,7 +2,7 @@
 
 # we need to set some paths in the config files
 prefix=${PWD}/vantage6_config_files/node/
-folders=("2class_class_imb/class_imb_org" "2class_IID/IID_org" "2class_sample_imb/sample_imb_org" "3node_PCA/3node_org" "4class_class_imb/class_imb_org" "4class_IID/IID_org" "4class_sample_imb/sample_imb_org" "A2_class_imb/A2_org" "A2_IID/A2_org" "A2_sample_imb/A2_org" "kinase/kinase_ABL1_org" "kinase/kinase_KDR_org" "fashion_MNIST" "fashion_MNIST_ci")
+folders=("2class_class_imb/class_imb_org" "2class_IID/IID_org" "2class_sample_imb/sample_imb_org" "3node_PCA/3node_org" "4class_class_imb/class_imb_org" "4class_IID/IID_org" "4class_sample_imb/sample_imb_org" "A2_class_imb/A2_org" "A2_IID/A2_org" "A2_sample_imb/A2_org" "kinase/kinase_ABL1_org" "kinase/kinase_KDR_org" "fashion_MNIST/fashion_MNIST_org" "fashion_MNIST_ci/fashion_MNIST_org")
 
 # ip for docker
 address=$(ip a |grep -A 4 docker0: | grep -o 'inet .*' | cut -c 6-15)
