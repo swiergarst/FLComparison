@@ -63,19 +63,20 @@ the script to boot up the nodes takes 3 command line inputs (maximum, most datas
 
 |    |dataset|argument 1 |argument 2  | argument 3 | 
 |----|----|----|----|----|
-|             | IID| IID | 2 | - |
-|2class MNIST | CI | c   | 2 | - |
+|2class MNIST | IID| IID | 2 | - |
+|             | CI | c   | 2 | - |
 |             | SI | s   | 2 | - |
-|             | IID| IID | 4 | - |
-|4class MNIST | CI | c   | 4 | - |
+|4class MNIST | IID| IID | 4 | - |
+|             | CI | c   | 4 | - |
 |             | SI | s   | 4 | - |
-|             | IID| a   |IID| p |
-| A2          | CI | a   | c | p |
+| A2          | IID| a   |IID| p |
+|             | CI | a   | c | p |
 |             | SI | a   | s | p |
 |fashion MNIST|IID | f   | - | - |
 |             | CI | f   | c | - |
 |AML          |3node | 3 | p | - |
-|             |2node | 2 | p | - |
+|kinase       |KDR | k | KDR | - |
+|             |ABL1| k |ABL1 | - |
 
 e.g. running 
 ```
