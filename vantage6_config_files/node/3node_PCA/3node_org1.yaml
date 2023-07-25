@@ -18,7 +18,7 @@ environments:
       level: DEBUG
       max_size: 1024
       use_console: true
-    port: '80'
+    port: '5000'
     server_url: http://server_url
     task_dir:  
   prod: {}
