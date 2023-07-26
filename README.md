@@ -1,4 +1,5 @@
-# Reproducability repository for FL paper
+# A comprehensive experimental comparison
+between federated and centralized learning
 
 ## Introduction
  This repository is a collection of scripts which can be used to reproduce the results described in xx. The scripts initiate docker images which are stored on [docker hub](https://hub.docker.com/repository/docker/sgarst/federated-learning/general). The source code for these images can be found [here](https://github.com/swiergarst/Federated-Classifiers); commit tags correspond to image names. All experiments were done on an Ubuntu 20.04 machine.
@@ -9,13 +10,6 @@
 
 ### docker
 Docker is required to run vantage6. details on how to install docker on ubuntu can be found [here](https://docs.docker.com/engine/install/ubuntu/), other platforms can be found [here](https://docs.docker.com/engine/install/) (do keep in mind that this repository has only been tested in ubuntu). Afterwards, if you are unable to run `docker run hello-world` without the use of `sudo`, make sure to follow the additional instructions [here](https://docs.docker.com/engine/install/linux-postinstall/).
-
-### NGINX
-NGINX is used for communication between server and clients. Although not strictly necessary for the use of vantage6, in my own configuration I found it required in order for my clients to 'find' the server. NGINX can be installed using:
-```
-sudo apt update
-sudo apt install nginx
-```
 
 
 ### anaconda/minconda
